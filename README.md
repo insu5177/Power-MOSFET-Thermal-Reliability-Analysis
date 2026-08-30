@@ -33,7 +33,6 @@ Protection / Throttling
 
 신뢰성 평가
 
-## 현재 진행 상황
 
 프로젝트 초기 설정 단계
 
