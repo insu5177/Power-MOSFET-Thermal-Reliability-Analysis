@@ -33,9 +33,18 @@ Protection / Throttling
 
 신뢰성 평가
 
+## 분석 대상 소자
 
-프로젝트 초기 설정 단계
+ Infineon의 **IAUTN12S5N018T** Si Power MOSFET을 분석 대상으로 선정
 
-## 다음 단계
+- N-channel Si Power MOSFET
+- OptiMOS™ 5 기술
+- 최대 Drain-Source Voltage: 120 V
+- 최대 RDS(on): 1.8 mΩ
+- 최대 Junction Temperature: 175°C
 
-실제 Power MOSFET을 선정하고 Datasheet 기반 주요 파라미터를 정리한다.
+### 선정 이유
+
+기존 MOSFET Id-Vgs 및 Subthreshold 분석과 자연스럽게 연결할 수 있는 실제 Si MOSFET이며,
+Datasheet에서 온도에 따른 Id-Vgs, Vth, RDS(on) 및 Thermal Impedance 정보를 제공하여
+온도 의존 특성과 열적 신뢰성을 분석하기에 적합하다고 판단하였다.
