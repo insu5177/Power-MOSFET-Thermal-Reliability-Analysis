@@ -1,5 +1,4 @@
-# Power MOSFET Thermal Reliability Analysis
-
+# Power-MOSFET-Electro-Thermal-Protection-Analysis
 ## 프로젝트 배경
 
 기존 프로젝트에서 Python을 활용하여 MOSFET의 기본적인 전기적 특성과 비이상성을 분석하였다.
